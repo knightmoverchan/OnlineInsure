@@ -12,8 +12,7 @@
     $days = explode("-",$date[1]);
     $date_period1 = $days[0]."/".$month."/".$date[2];
     $date_period2 = $days[1]."/".$month."/".$date[2];
-    $salesRep ="";
-    $salesRep .=  '<tr>
+    $payrollPDF .=  '<tr>
         <td style="text-align:center">'.$data[$i]["payroll_id"] .'</td>
         <td style="text-align:center">'.$data[$i]["salesRepName"] .'</td>
         <td style="text-align:center">'.$data[$i]["clientName"] .'</td>
@@ -46,7 +45,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <?php echo $salesRep; ?>
+                            <?php echo $payrollPDF; ?>
                     </table>
                     </div>
                 </div>
