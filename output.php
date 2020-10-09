@@ -199,7 +199,7 @@
             <h2 align="center">Buyer Created Tax Invoice<h2>
                 <div class="inv-title">
                     <span align="left">Sales Rep No.: '.$data[0]["sales_rep"].'</span>
-                    <span style="text-transform: uppercase;">&nbsp;'.$data[0]["name"].'</span>
+                    <span style="text-transform: uppercase;">&nbsp;'.$data[0]["salesRepName"].'</span>
                     <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     '.$date_period1."-".$date_period2.'</span>
@@ -210,9 +210,9 @@
                     <div>
                         <ul>
                             <li><u>Produced on:</u> '.$dateToday.'</li>
-                            <li style="text-transform: capitalize;">'.$data[0]["name"].'</li>
+                            <li style="text-transform: capitalize;">'.$data[0]["salesRepName"].'</li>
                             <li>Cebu, Philippines</li>
-                            <li>roxannetampus02@gmail.com</li>
+                            <li>'.$data[0]["email"].'</li>
                         </ul>
                     </div>
                     <div style="text-align:center; margin-top:-145px">
@@ -236,7 +236,7 @@
             <pagebreak>
             <h6 align="center">Detail Commission Statement<h6>
             <div class="inv-title">
-                <span align="left">Sales Rep No.: '.$data[0]["sales_rep"].'</span>
+                <span align="left">Sales Rep No.: '.$data[0]["salesRepName"].'</span>
                 <span style="text-transform: uppercase;">&nbsp;'.$data[0]["name"].'</span>
                 <span style="float:right">'.$date_period1."-".$date_period2.'</span>
             </div>

@@ -99,7 +99,7 @@
 
     function getPayrollById($id){
         $pdo = dbConnect();
-        $sql = "SELECT *, t3.id as 'clientId',t3.name as 'clientName'  FROM payroll as t1
+        $sql = "SELECT *, t3.id as 'clientId',t3.name as 'clientName',  t2.name as 'salesRepName'  FROM payroll as t1
             LEFT JOIN sales_rep as t2 ON t1.sales_rep = t2.id
             LEFT JOIN client as t3 ON t1.id = t3.payroll_id
             WHERE t1.id=".$id;
