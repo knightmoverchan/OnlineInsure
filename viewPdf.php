@@ -18,7 +18,7 @@
         <td style="text-align:center">'.$data[$i]["salesRepName"] .'</td>
         <td style="text-align:center">'.$data[$i]["clientName"] .'</td>
         <td style="text-align:center">'.$date_period1."-".$date_period2.'</td>
-        <td style="text-align:center"><a href="output.php?id='.$data[$i]["payroll_id"].'"><button>View PDF</button></a> <button>Send Email to Client</button></td>
+        <td style="text-align:center"><a href="output.php?id='.$data[$i]["payroll_id"].'"><button>View PDF</button></a></td>
     </tr>';
    }
 ?>
