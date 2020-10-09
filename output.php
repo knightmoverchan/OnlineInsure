@@ -233,7 +233,7 @@
             </div>
 
             '.$payrollDetails.'
-           
+            <pagebreak>
             <h6 align="center">Detail Commission Statement<h6>
             <div class="inv-title">
                 <span align="left">Sales Rep No.: '.$data[0]["sales_rep"].'</span>
