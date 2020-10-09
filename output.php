@@ -236,8 +236,8 @@
             <pagebreak>
             <h6 align="center">Detail Commission Statement<h6>
             <div class="inv-title">
-                <span align="left">Sales Rep No.: '.$data[0]["salesRepName"].'</span>
-                <span style="text-transform: uppercase;">&nbsp;'.$data[0]["name"].'</span>
+                <span align="left">Sales Rep No.: '.$data[0]["sales_rep"].'</span>
+                <span style="text-transform: uppercase;">&nbsp;'.$data[0]["salesRepName"].'</span>
                 <span style="float:right">'.$date_period1."-".$date_period2.'</span>
             </div>
             </div>
