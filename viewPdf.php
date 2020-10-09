@@ -31,7 +31,7 @@
         <?php include "assets/nav.php" ?>
         <section class="masthead page-section" id="contact">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Sales Rep Profile</h2><br>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Sales Rep Payroll</h2><br>
                 <div class="row">
                     <div class="col-lg-12 mx-auto">
                     <table id="example" class="table table-striped table-bordered" style="width:100%">
