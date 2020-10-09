@@ -212,7 +212,7 @@
                             <li><u>Produced on:</u> '.$dateToday.'</li>
                             <li style="text-transform: capitalize;">'.$data[0]["salesRepName"].'</li>
                             <li>Cebu, Philippines</li>
-                            <li>'.$data[0]["email"].'</li>
+                            <li>salesrep@gmail.com</li>
                         </ul>
                     </div>
                     <div style="text-align:center; margin-top:-145px">
