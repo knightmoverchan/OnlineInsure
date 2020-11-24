@@ -1,4 +1,4 @@
-ONLINE INSURE
+ONLINE INSURE - Simple payroll system using PHP
 
 Please import the SQL file named "online_insure.sql"
 
